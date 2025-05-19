@@ -1,0 +1,16 @@
+Machines virtuelles :
+Lien : https://lab.ib-formation.fr
+Mot de passe de sessions : Pa55w.rd
+
+
+Session: 25116113
+Salle: labo4
+Formateur: DMS
+Date de début: 2025-05-19
+Salle	Poste	Username			Password
+labo4	Poste00	ib.51040019			HdjRr4b2
+labo4	Poste01	thomas.voltz19			WUhRZG6T
+labo4	Poste02	damien.laitani19		9Wp347rA
+labo4	Poste03	hermance.larvet19		xvpqH6Bw
+labo4	Poste04	shengwei.li19	XJRwVfm8
+labo4	Poste05	alain.percevault19		unzXavDh
