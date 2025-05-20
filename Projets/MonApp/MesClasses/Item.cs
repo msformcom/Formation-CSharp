@@ -1,13 +1,102 @@
-﻿namespace Liste
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Liste
 {
     public class Item
     {
         // Constructeur => initialisation des valeurs de la classe
         // Permet d'imposer certaines valeur
-        public Item(string libelle)
+        public Item(string libelle, decimal prix) : this(libelle, prix, null)
         {
-            this.Libelle = libelle;
+            // Continuer la construction si nécessaire
         }
+
+        // ce constructeur utilise un autre constructeur avec des valeurs spécifiques
+        public Item(string libelle, int points) : this(libelle,null, points) 
+        {
+
+        }
+
+        private Item(string libelle, decimal? prix, int? points){
+            this.Libelle = libelle;
+            this.Prix = prix;
+            this.Points = points;
+        }
+
+
+
+
+
+        #region Propriété Description
+
+
+        private string? _Description;
+
+        public string? Description
+        {
+            get
+            {
+                return _Description;
+            }
+            set
+            {
+                // TODO : Contoller value
+                _Description = value;
+            }
+        }
+        #endregion
+
+
+        #region Propriété Prix
+
+
+        private Decimal? _Prix=null;
+
+        public Decimal? Prix
+        {
+            get
+            {
+                return _Prix;
+            }
+            set
+            {
+                // TODO : Contoller value
+                if (this.Points != null)
+                {
+                    throw new InvalidOperationException();
+                }
+                _Prix = value;
+            }
+        }
+        #endregion
+
+        #region Propriété Points
+
+
+        private int? _Points=null;
+
+        public int? Points
+        {
+            get
+            {
+                return _Points;
+            }
+            set
+            {
+                // TODO : Contoller value
+                if(value != null)
+                {
+                    this._Prix = null;
+                }
+                _Points = value;
+            }
+        }
+        #endregion
+
+
+
+        #region Propriété Libelle
 
         // Champs => stocker l'information
         private string _Libelle; // Pas de valeur par défaut
@@ -30,23 +119,46 @@
                 this._Libelle = value;
             }
         }
+        #endregion
 
+        #region Propriété Fait
 
-        private bool _Fait;
-
+        // Fait est une valeur calculée
+        // pas de setter => lecture seule
         public bool Fait
         {
-            get { 
-                return _Fait; 
-            }
-            set { 
-                if(!value && this.Fait == true)
-                {
-                    throw new InvalidOperationException("Impossible, car Item fait");
-                }
-                _Fait = value; 
+            get
+            {
+                return this._DateRealisation != null;
             }
         }
+        #endregion
+
+        #region Propriété DateRealisation
+
+        private DateTime? _DateRealisation=null;
+        // Raccourci pour créer une propriété sans contrôle avec champs masqué
+        [DisplayName("Date de réalisation")] // Avec MVC l'affichage de cette info => label avec Date de réalisation
+        [Column("RealisationDate")] // Avec EntityFramework => Utiliser RealisationDate comme nom de colonne
+        // public DateTime DateRealisation { get; set; } // Propriété raccourcie
+
+        public DateTime? DateRealisation
+        {
+            get { return _DateRealisation; }
+            set {
+                
+                if(value==null && this._DateRealisation != null)
+                {
+                    throw new InvalidOperationException();
+                }
+                _DateRealisation = value; }
+        }
+
+        #endregion
+
+        
+
+
 
     }
 }

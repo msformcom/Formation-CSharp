@@ -13,13 +13,13 @@ namespace MesTests
             // En cas d'Exception dans un test => Fail
 
             // Arrange 
-            var item = new Item("Pates");
+            var item = new Item("Pates",0);
 
             // Assert1 : Le fait est à faux
             Assert.IsFalse(item.Fait,$"Valeur par défaut d'un item incorrecte pour {nameof(item.Fait)}" );
 
             // Act1 : Mettre à vrai
-            item.Fait = true;
+            item.DateRealisation = DateTime.Now;
 
             // Asert 2: Fait est vrai
             Assert.IsTrue(item.Fait,$"On ne peut pas mettre {nameof(item.Fait)} à vrai");
@@ -30,7 +30,7 @@ namespace MesTests
             // Act2 : Remettre à faux
             try
             {
-                item.Fait = false;
+                item.DateRealisation = null;
             }
             catch (Exception ex)
             {
@@ -75,7 +75,7 @@ namespace MesTests
             try
             {
                 // Cette méthode doit générer une Exception (Erreur) si la valeur n'est pas acceptable
-                item = new Item("libelle");
+                item = new Item("libelle",0M);
                 item.Libelle = libelle;
 
              }
