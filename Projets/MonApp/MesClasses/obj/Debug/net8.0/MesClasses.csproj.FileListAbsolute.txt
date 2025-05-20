@@ -1,0 +1,12 @@
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\bin\Debug\net8.0\MesClasses.deps.json
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\bin\Debug\net8.0\MesClasses.dll
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\bin\Debug\net8.0\MesClasses.pdb
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\MesClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\MesClasses.AssemblyInfoInputs.cache
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\MesClasses.AssemblyInfo.cs
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\MesClasses.csproj.CoreCompileInputs.cache
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\MesClasses.sourcelink.json
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\MesClasses.dll
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\refint\MesClasses.dll
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\MesClasses.pdb
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\ref\MesClasses.dll

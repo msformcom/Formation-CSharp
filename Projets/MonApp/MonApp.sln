@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesTests", "MesTests\MesTests.csproj", "{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesClasses", "MesClasses\MesClasses.csproj", "{B1568682-C610-4CA4-8769-D5367D33B3D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1568682-C610-4CA4-8769-D5367D33B3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1568682-C610-4CA4-8769-D5367D33B3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1568682-C610-4CA4-8769-D5367D33B3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1568682-C610-4CA4-8769-D5367D33B3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
