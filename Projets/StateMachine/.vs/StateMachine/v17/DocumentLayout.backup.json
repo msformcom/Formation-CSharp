@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\StateMachine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1AEFD18-B310-45AD-8B21-0225F5F59145}|StateMachineTests\\StateMachineTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\statemachine\\statemachinetests\\statemachinetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1AEFD18-B310-45AD-8B21-0225F5F59145}|StateMachineTests\\StateMachineTests.csproj|solutionrelative:statemachinetests\\statemachinetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A04BA8E-3388-48E4-A87A-DF5DDA75D489}|StateMachine\\StateMachine.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\statemachine\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A04BA8E-3388-48E4-A87A-DF5DDA75D489}|StateMachine\\StateMachine.csproj|solutionrelative:statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StateMachineTests.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\StateMachine\\StateMachineTests\\StateMachineTests.cs",
+              "RelativeDocumentMoniker": "StateMachineTests\\StateMachineTests.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\StateMachine\\StateMachineTests\\StateMachineTests.cs*",
+              "RelativeToolTip": "StateMachineTests\\StateMachineTests.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:36:44.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\StateMachine\\StateMachine\\StateMachine.cs",
+              "RelativeDocumentMoniker": "StateMachine\\StateMachine.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\StateMachine\\StateMachine\\StateMachine.cs",
+              "RelativeToolTip": "StateMachine\\StateMachine.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:32:59.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

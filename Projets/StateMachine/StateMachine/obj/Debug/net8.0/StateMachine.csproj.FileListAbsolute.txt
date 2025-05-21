@@ -1,0 +1,12 @@
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\bin\Debug\net8.0\StateMachine.deps.json
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\bin\Debug\net8.0\StateMachine.dll
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\bin\Debug\net8.0\StateMachine.pdb
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\obj\Debug\net8.0\StateMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\obj\Debug\net8.0\StateMachine.AssemblyInfoInputs.cache
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\obj\Debug\net8.0\StateMachine.AssemblyInfo.cs
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\obj\Debug\net8.0\StateMachine.csproj.CoreCompileInputs.cache
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\obj\Debug\net8.0\StateMachine.sourcelink.json
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\obj\Debug\net8.0\StateMachine.dll
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\obj\Debug\net8.0\refint\StateMachine.dll
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\obj\Debug\net8.0\StateMachine.pdb
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\StateMachine\StateMachine\obj\Debug\net8.0\ref\StateMachine.dll

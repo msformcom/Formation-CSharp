@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\delegatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\delegatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\listecoursestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\listecoursestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\collectionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\collectionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\listecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +38,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CollectionsTests.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\CollectionsTests.cs",
+              "RelativeDocumentMoniker": "MesTests\\CollectionsTests.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\CollectionsTests.cs",
+              "RelativeToolTip": "MesTests\\CollectionsTests.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAowJEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:27:43.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DelegateTests.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\DelegateTests.cs",
+              "RelativeDocumentMoniker": "MesTests\\DelegateTests.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\DelegateTests.cs",
+              "RelativeToolTip": "MesTests\\DelegateTests.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAADwv1QAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T09:21:34.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ListeCoursesTests.cs",
               "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\ListeCoursesTests.cs",
               "RelativeDocumentMoniker": "MesTests\\ListeCoursesTests.cs",
               "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\ListeCoursesTests.cs",
               "RelativeToolTip": "MesTests\\ListeCoursesTests.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T14:02:44.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ListeCourses.cs",
               "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\ListeCourses.cs",
               "RelativeDocumentMoniker": "MesClasses\\ListeCourses.cs",
