@@ -6,6 +6,27 @@ namespace MesTests;
 [TestClass]
 public class CollectionsTests
 {
+
+    [TestMethod]
+    public void ListeTest()
+    {
+        var catalogue=new List<IVendable>();
+        var c = new Chien();
+        catalogue.Add(c);
+        catalogue.Add(new Chiwawa());
+        catalogue.Add(new Fourchette());
+
+        // linq
+        var articlesChers=catalogue.Where(c => c.Prix > 1000);
+
+        catalogue.Remove(c); // Enleve le chien c
+        catalogue.RemoveAt(1); // Enleve l'élément en 2eme position
+        var chiens=catalogue.OfType<Chien>();
+
+        var catalogueFerme = catalogue.AsEnumerable();
+
+    }
+
     [TestMethod]
     public void TableauxTests()
     {
@@ -23,7 +44,7 @@ public class CollectionsTests
 
         int[,] tab2D = new int[4, 5];
         int[,,] tab3D = new int[4, 5, 6];
-        int[,,,,] tab5D = new int[4, 5, 6,4,6];
+        int[,,,,] tab5D = new int[4, 5, 6, 4, 6];
 
         var l = tab5D.Length; //2880
         var lD2 = tab5D.GetLength(1); // 5
@@ -53,17 +74,19 @@ public class CollectionsTests
     }
 
 
+
+
     [TestMethod]
     public void EnumerationTests()
     {
-        int[] tab1D = new int[] { 5,8,7,5,9,4,2,8};
+        int[] tab1D = new int[] { 5, 8, 7, 5, 9, 4, 2, 8 };
         for (int i = 0; i < tab1D.Length; i++)
         {
             var e = tab1D[i];
         }
 
         // Enumeration des éléments du tableau
-        foreach(int e in tab1D) // e => valeurs successives du tableau
+        foreach (int e in tab1D) // e => valeurs successives du tableau
         {
 
         }
@@ -73,7 +96,7 @@ public class CollectionsTests
         // Je suis à la position -1
         while (enumerator.MoveNext())
         {
-            int e =(int) enumerator.Current;
+            int e = (int)enumerator.Current;
         }
 
 
@@ -106,6 +129,42 @@ public class CollectionsTests
     }
 
 
+
+
+    [TestMethod]
+    public void TPIEnumerable()
+    {
+        int[] entiers = new int[] { 6, 1, 8, 4, 6, 9,33, 3, 10, 11, 1, 12, 4, 9, 6 };
+
+        // Méthodes IEnumerable
+        // Where (filtrage), OrderBy,OrderByDescending (ordre), Sum, Average, Count,
+        // GroupBy (regroupement), Select (mapping), Distinct (Dédoublonage)
+        // Skip (passer des éléments), Take (n'en retenir qu'un certain nombbre) - Pagination, 
+        // % => modulo = reste de la division par 17 % 7 => 3
+
+        // Somme des entiers pairs
+        var sommeEntiersPairs = entiers.Where(c => c % 2 == 0).Sum();
+        // Moyenne des 5 plus gros entiers
+        var moyenne5GrosEntiers = entiers.OrderDescending().Take(5).Average();
+        // Nombre d'élément dans chaque dizaine les entiers par dizaine
+        var a = 19 / 10;
+        var groupByDizaine = entiers
+            .GroupBy(c =>c/10)
+            .Select(c=>new { Dizaine=c.Key, Nombre= c.Count() })
+            .OrderByDescending(c=>c.Nombre);
+        // Compter les entiers >10
+        var nbEntiersSup10 = entiers.Where(c => c > 10).Count();
+        // double des entiers ( x 2)
+        var doubleDesEntiers = entiers.Select(c => c * 2);
+        // La valeur de l'entier le plus gros
+        var maxEntier = entiers.Max();
+        // Somme des entiers > 1000
+        var sommeEntiersSup1000 = entiers.Where(c => c > 1000).DefaultIfEmpty(10).Max();
+
+        var semection = from c in entiers orderby c select c * 2;
+
+
+    }
     bool Filtre(int c)
     {
         return c < 7;

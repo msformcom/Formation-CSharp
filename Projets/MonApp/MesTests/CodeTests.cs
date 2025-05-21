@@ -1,3 +1,6 @@
+using MesTests.POO;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace MesTests;
 
 [TestClass]
@@ -34,6 +37,13 @@ public class CodeTests
         var sqr = Math.Sqrt(-4D);
 
 
+    }
+
+    [TestMethod]
+    public void ClasseGeneriqueTest()
+    {
+        var p = new PersonneDAO<int>();
+        p.Id = 1;
     }
 
 

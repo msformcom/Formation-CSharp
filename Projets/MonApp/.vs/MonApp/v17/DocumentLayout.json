@@ -3,43 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\collectionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\collectionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\listecoursestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\listecoursestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\poo\\fourchette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\poo\\fourchette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\poo\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\poo\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\poo\\chiwawa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\poo\\chiwawa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\poo\\ivendable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\poo\\ivendable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\poo\\ilouable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\poo\\ilouable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\mestests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\mestests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conta\\OneDrive\\Documents\\Visual Studio 2022\\Code snippets\\Visual C#\\My Code Snippets\\myprop.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\codetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\codetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\listecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\listecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,133 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Chiwawa.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\Chiwawa.cs",
-              "RelativeDocumentMoniker": "MesTests\\POO\\Chiwawa.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\Chiwawa.cs",
-              "RelativeToolTip": "MesTests\\POO\\Chiwawa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABfAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ListeCoursesTests.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\ListeCoursesTests.cs",
+              "RelativeDocumentMoniker": "MesTests\\ListeCoursesTests.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\ListeCoursesTests.cs",
+              "RelativeToolTip": "MesTests\\ListeCoursesTests.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T09:35:41.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ILouable.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\ILouable.cs",
-              "RelativeDocumentMoniker": "MesTests\\POO\\ILouable.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\ILouable.cs",
-              "RelativeToolTip": "MesTests\\POO\\ILouable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T09:32:52.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Chien.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\Chien.cs",
-              "RelativeDocumentMoniker": "MesTests\\POO\\Chien.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\Chien.cs",
-              "RelativeToolTip": "MesTests\\POO\\Chien.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T09:30:54.865Z",
+              "WhenOpened": "2025-05-20T14:02:44.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Fourchette.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\Fourchette.cs",
-              "RelativeDocumentMoniker": "MesTests\\POO\\Fourchette.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\Fourchette.cs",
-              "RelativeToolTip": "MesTests\\POO\\Fourchette.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Title": "ListeCourses.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\ListeCourses.cs",
+              "RelativeDocumentMoniker": "MesClasses\\ListeCourses.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\ListeCourses.cs",
+              "RelativeToolTip": "MesClasses\\ListeCourses.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAhwCcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T09:26:15.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IVendable.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\IVendable.cs",
-              "RelativeDocumentMoniker": "MesTests\\POO\\IVendable.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\POO\\IVendable.cs",
-              "RelativeToolTip": "MesTests\\POO\\IVendable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T09:23:53.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MesTests",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\MesTests.csproj",
-              "RelativeDocumentMoniker": "MesTests\\MesTests.csproj",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\MesTests.csproj",
-              "RelativeToolTip": "MesTests\\MesTests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-20T09:01:59.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CollectionsTests.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\CollectionsTests.cs",
-              "RelativeDocumentMoniker": "MesTests\\CollectionsTests.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\CollectionsTests.cs",
-              "RelativeToolTip": "MesTests\\CollectionsTests.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAiwHIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T09:02:41.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "myprop.snippet",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Documents\\Visual Studio 2022\\Code snippets\\Visual C#\\My Code Snippets\\myprop.snippet",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\Visual Studio 2022\\Code snippets\\Visual C#\\My Code Snippets\\myprop.snippet",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Documents\\Visual Studio 2022\\Code snippets\\Visual C#\\My Code Snippets\\myprop.snippet",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\Visual Studio 2022\\Code snippets\\Visual C#\\My Code Snippets\\myprop.snippet",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002852|",
-              "WhenOpened": "2025-05-20T08:01:05.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Item.cs",
-              "RelativeDocumentMoniker": "MesClasses\\Item.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Item.cs",
-              "RelativeToolTip": "MesClasses\\Item.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:48:55.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CodeTests.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\CodeTests.cs",
-              "RelativeDocumentMoniker": "MesTests\\CodeTests.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\CodeTests.cs",
-              "RelativeToolTip": "MesTests\\CodeTests.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAiwDEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:20:39.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T13:17:44.371Z"
             }
           ]
         }

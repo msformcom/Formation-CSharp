@@ -24,6 +24,7 @@ namespace Liste
             this.Points = points;
         }
 
+        public bool Secret { get; set; } = false;
 
 
 
