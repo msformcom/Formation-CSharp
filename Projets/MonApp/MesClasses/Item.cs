@@ -1,8 +1,10 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Runtime.Serialization;
 
 namespace Liste
 {
+    [DataContract]
     public class Item
     {
         // Constructeur => initialisation des valeurs de la classe
@@ -24,6 +26,7 @@ namespace Liste
             this.Points = points;
         }
 
+        [DataMember]
         public bool Secret { get; set; } = false;
 
 
@@ -31,7 +34,7 @@ namespace Liste
 
         #region Propriété Description
 
-
+        [DataMember]
         private string? _Description;
 
         public string? Description
@@ -51,7 +54,7 @@ namespace Liste
 
         #region Propriété Prix
 
-
+        [DataMember]
         private Decimal? _Prix=null;
 
         public Decimal? Prix
@@ -74,7 +77,7 @@ namespace Liste
 
         #region Propriété Points
 
-
+        [DataMember]
         private int? _Points=null;
 
         public int? Points
@@ -100,6 +103,7 @@ namespace Liste
         #region Propriété Libelle
 
         // Champs => stocker l'information
+        [DataMember]
         private string _Libelle; // Pas de valeur par défaut
 
         // Propriété
@@ -136,7 +140,7 @@ namespace Liste
         #endregion
 
         #region Propriété DateRealisation
-
+        [DataMember()]
         private DateTime? _DateRealisation=null;
         // Raccourci pour créer une propriété sans contrôle avec champs masqué
         [DisplayName("Date de réalisation")] // Avec MVC l'affichage de cette info => label avec Date de réalisation

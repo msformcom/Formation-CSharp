@@ -10,20 +10,23 @@ using System.Threading.Tasks;
 
 namespace MesClasses.Persistence
 {
-    internal class PersistenceToDisk<T> : IPersistenceListe<Guid>
+    public class PersistenceToDisk : IPersistenceListe<Guid>
     {
-        private readonly ILogger logger;
-        private readonly IConfiguration config;
+        private readonly ILogger<PersistenceToDisk> logger;
+        private readonly PersistenceToDiskOptions options;
+
 
         // Dans cette classe, j'ai besoin de journaliser une erreur
         // Problème : Quel objet sert à journaliser dans mon appli => Aucune idée
         // Je vais demander l'objet qui sert à journaliser => faire appel à ID
         // Interface associée à la journalisation c'est ILogger
         // Dans le package Microsoft.Extensions.Logging.Abstractions
-        public PersistenceToDisk(ILogger logger, IConfiguration config)
+
+
+        public PersistenceToDisk(ILogger<PersistenceToDisk> logger, PersistenceToDiskOptions options)
         {
             this.logger = logger;
-            this.config = config;
+            this.options = options;
         }
 
         public Task<Guid> AddItemToList(Guid idListe, Item item)
@@ -33,59 +36,90 @@ namespace MesClasses.Persistence
 
         public Task<Guid> AddListeAsync(ListeCourses liste)
         {
-            // Enregistre la liste sur le disque
-            // Ou ? "c:\\data" => config
-            // L'application qui va utiliser cette classe fournira une instance de classe
-            // qui implement IConfiguration 
-            var path =config.GetSection("PathForLists").Value;
+            // Thread UI qui arrive ici
 
-            if (!Directory.Exists(path))
-            {
-                Directory.CreateDirectory(path);
-            }
-            var id=Guid.NewGuid();
+            return Task.Run(() => {
+                // thread secondaire qui exécute ce code => Le thread UI est libéré
+                // Enregistre la liste sur le disque
+                // Ou ? "c:\\data" => config
+                // L'application qui va utiliser cette classe fournira une instance de classe
+                // qui implement IConfiguration 
+                var pathToDirectory = options.PathToLists;
 
-
-            // IDisposable 
-            // Dispose() => méthode qui ferme toutes les resources utilisées par l'objet
-            // using garantit que quel que soit la situation (Exception / return)
-            // .Dispose sera exécuté à la sortie du bloc de code
-            try
-            {
-                using (var s = File.Create(Path.Combine(path, id.ToString() + ".json")))
+                if (!Directory.Exists(pathToDirectory))
                 {
-                    // Creation du fichier et ouverture du fichier
-
-                    // s permet d'ecrire des bytes dans le fichier
-                    //var sw = new StreamWriter(s, Encoding.UTF8);
-                    // sw.WriteLine("Toto");
-
-                    // Il me faut un serialiser Liste => json
-                    //  DataContractJsonSerializer => josn
-                    // DataContractSerializer => xml
-                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(ListeCourses));
-                    // Serialiser la liste en json et l'envoyer dans le stream
-                    serializer.WriteObject(s, liste);
-
+                    Directory.CreateDirectory(pathToDirectory);
                 }
-            }
-            catch (Exception)
-            {
-                logger.Log(LogLevel.Error, "Sauvegarde de liste sur disque échouée");
-                throw new Exception("Ecriture non possible");
-            }
+                var id = Guid.NewGuid();
+
+
+                // IDisposable 
+                // Dispose() => méthode qui ferme toutes les resources utilisées par l'objet
+                // using garantit que quel que soit la situation (Exception / return)
+                // .Dispose sera exécuté à la sortie du bloc de code
+                try
+                {
+                   // var s = string.Format("{1:dd/MM/yyyy}-{0}", 6, DateTime.Now); // "22/05/2025-6"
+                    using (var s = File.Create(Path.Combine(pathToDirectory,
+                    
+                        string.Format(options.FileNamePattern, id) // "Liste-{0}.json" => "Liste-6717617-675675.json"
+
+                        )))
+                    {
+                        // Creation du fichier et ouverture du fichier
+
+                        // s permet d'ecrire des bytes dans le fichier
+                        //var sw = new StreamWriter(s, Encoding.UTF8);
+                        // sw.WriteLine("Toto");
+
+                        // Il me faut un serialiser Liste => json
+                        //  DataContractJsonSerializer => josn
+                        // DataContractSerializer => xml
+                        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(ListeCourses));
+                        // Serialiser la liste en json et l'envoyer dans le stream
+                        serializer.WriteObject(s, liste);
+                        return id;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    logger.Log(LogLevel.Error, "Sauvegarde de liste sur disque échouée");
+                    var ex2= new Exception("Ecriture non possible",ex);
+                    // ex2.InnerException contient ex => permet au dév qui gère ex2 de connaître l'exeption original
+                    throw ex2;
+                }
 
 
 
 
-
-
-
+            });
+ 
         }
 
         public Task<ListeCourses> GetListeCoursesAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return Task.Run(() =>
+            {
+                var pathToDirectory =options.PathToLists;
+                var fileName = Path.Combine(pathToDirectory,
+                     string.Format(options.FileNamePattern, id));
+
+                var file = new FileInfo(fileName);
+                if (!file.Exists)
+                {
+                    throw new Exception("Enregistrement non trouvé");
+                }
+                DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(ListeCourses));
+                using (var s = file.OpenRead())
+                {
+                    ListeCourses resultat = (ListeCourses)serializer.ReadObject(s);
+                    if (resultat != null)
+                    {
+                        return resultat;
+                    }
+                    throw new Exception("Impossible de désérialiser les données");
+                }
+            });
         }
 
         public Task RemoveListAsync(Guid id)

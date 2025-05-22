@@ -3,6 +3,7 @@ using MesClasses.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,6 +14,7 @@ namespace MesClasses
     // sealed => Pas d'héritage possible
     // partial => Définie dans plusieurs fichier
     // 
+    [DataContract]
     public partial class ListeCourses
     {
         // Quand on crée une liste, on peut fournir l'objet servant à sauvegarder
@@ -23,7 +25,7 @@ namespace MesClasses
 
         #region Propriété Nom
 
-
+        [DataMember(Name ="Name")]
         private string _Nom;
 
         public string Nom
@@ -41,7 +43,7 @@ namespace MesClasses
         #endregion
 
 
-
+        [DataMember(Name ="Items")]
         private List<Item> ListeItems ;
 
         // Version visible de la liste => non modifiable

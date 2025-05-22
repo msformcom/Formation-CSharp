@@ -1,0 +1,6 @@
+{
+  "PersistenceToDiskOptions": {
+    "PathToLists": "c:\\data",
+    "FileNamePattern": "Liste-{0}.json"
+  }
+}

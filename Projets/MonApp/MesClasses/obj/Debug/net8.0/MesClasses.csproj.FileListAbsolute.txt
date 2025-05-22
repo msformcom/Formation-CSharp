@@ -10,3 +10,4 @@ C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj
 C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\refint\MesClasses.dll
 C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\MesClasses.pdb
 C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\ref\MesClasses.dll
+C:\Users\conta\OneDrive\Bureau\Formation C#\Public\Projets\MonApp\MesClasses\obj\Debug\net8.0\MesClasses.csproj.AssemblyReference.cache
