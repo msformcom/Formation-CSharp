@@ -1,6 +1,15 @@
 {
+  "ConnectionStrings": {
+    "MaConnection": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=MaBDD;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=true;"
+  },
   "PersistenceToDiskOptions": {
     "PathToLists": "c:\\data",
     "FileNamePattern": "Liste-{0}.json"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Error"
+      
+    }
   }
 }

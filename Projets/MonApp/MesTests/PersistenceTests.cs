@@ -1,9 +1,12 @@
 using Liste;
 using MesClasses;
 using MesClasses.Persistence;
+using MesClasses.Persistence.BDD;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace MesTests;
 
@@ -47,7 +50,7 @@ public class PersistenceTests
         services.AddSingleton<IConfiguration>(configManager);
         #endregion
 
-
+        #region Config Disque
         // Package Microsoft.Extensions.Configuration.Binder
         // Ajouter un objet PersistenceToDiskOptions dont les valeurs sont enregistrées dans la section
         // PersistenceToDiskOptions de la config
@@ -57,14 +60,39 @@ public class PersistenceTests
                             .Get<PersistenceToDiskOptions>()!;
         services.AddSingleton(persistenceToDiskOptions);
 
+        #endregion
+
+
+        // La classe de sauvegarde sera en mode singleton (1 seule instance suffit)
+        // Attention aux dépendances nécessaires pour construire l'instance de PersistenceToDisk
+
+        // Recherche du nom complet de la classe utilisée pour IPersistenceListe dans la config
+        //var persistenceClass = configManager.GetSection("PersistenceClasse").Value;
+        // Recherche du Type 
+        //var persistenceClassType = Type.GetType(persistenceClass);
+        // Association IPersistenceListe => persistenceClassType
+ //       services.AddSingleton(typeof(IPersistenceListe<Guid>), persistenceClassType));
+
+        #region Config BDD
+        services.AddDbContext<ListeDbContext>(options =>
+        {
+            // Cette fonction est utilisée pour créer les options
+            // Ajouter le package du provider => Microsoft.EntityFrameworkCore.SqlServer
+            // Sans config, le serveur installé avec Visual Studio est untilise
+            options.UseSqlServer("name=MaConnection");
+        });
+
+
+
+
+        services.AddSingleton<IPersistenceListe<Guid>, PersistenceToBDD>();
+        #endregion
+
         // Ajoute à mon injection la classe ListeCourses
         // Indique que je ne veux créer autant d'instance de l'objet que de demande
         services.AddTransient<ListeCourses>();
 
 
-        // La classe de sauvegarde sera en mode singleton (1 seule instance suffit)
-        // Attention aux dépendances nécessaires pour construire l'instance de PersistenceToDisk
-        services.AddSingleton<IPersistenceListe<Guid>, PersistenceToDisk>();
 
 
         // Je crée un injecteur de dépendance
@@ -73,11 +101,28 @@ public class PersistenceTests
 
 
     }
+
+    [TestMethod]
+    public void CreationBDDTest()
+    {
+        var context = injecteur.GetService<ListeDbContext>();
+        context.Database.EnsureCreated();
+
+    }
+
+
+
+
+
+
     // Formation : Tester la sauvegarde
     // Comment Créer et configurer un injecteur de dépendance
     [TestMethod]
     public async Task AddListAsyncTest()
     {
+       
+
+
         // Que faire ?   
 
         // 1) Créer et configurer un injecteur de dépendance

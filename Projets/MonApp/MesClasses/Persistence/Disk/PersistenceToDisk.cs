@@ -37,7 +37,7 @@ namespace MesClasses.Persistence
         public Task<Guid> AddListeAsync(ListeCourses liste)
         {
             // Thread UI qui arrive ici
-
+            logger.Log(LogLevel.Warning, "Ajout de liste");
             return Task.Run(() => {
                 // thread secondaire qui exécute ce code => Le thread UI est libéré
                 // Enregistre la liste sur le disque
