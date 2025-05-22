@@ -20,12 +20,22 @@ namespace MesClasses.Tests
             var riz = new Item("Riz au chcolat", 10);
             var chocolat = new Item("chcolat", 10);
             var gateaux = new Item("Gateaux au chcolat", 10);
+            bool itemAddedexecuted=false;
+
+            liste.ItemAdded += (o, e) => {
+                var item = e.AddedItem;
+                itemAddedexecuted = true;
+            };
+
 
             // Sans await L'exécution de cette méthode Async est instantanéé
             // Mais le thread qui exécute les instruction parrallelisée n'a pas forcément
 
             // Avec await => les instruction qui suivent sont exécutées lorsque la tache est terminée
             await liste.AddItemAsync(pates); // 1s
+            Assert.IsTrue(itemAddedexecuted, "L'évènement ItemAdded n'est pas éxecuté après ajout d'Item");
+
+
             await liste.AddItemAsync(riz); //1s
             // Arrivée ici au bout de  2s
 

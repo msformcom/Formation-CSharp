@@ -162,7 +162,7 @@ public class CollectionsTests
         var sommeEntiersSup1000 = entiers.Where(c => c > 1000).DefaultIfEmpty(10).Max();
 
         var semection = from c in entiers orderby c select c * 2;
-
+        var chars = "Toto".Distinct().OrderBy(c => c);
 
     }
     bool Filtre(int c)

@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\delegatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\delegatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\persistence\\persistencetodisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\persistence\\persistencetodisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\listecoursestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\listecoursestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\persistence\\ipersistenceliste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\persistence\\ipersistenceliste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\listecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\listecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\listecourses\u00E9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\listecourses\u00E9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\tpienumerableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\tpienumerableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\collectionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\collectionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\listecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\listecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\methodeextensiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\methodeextensiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\iteratorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\iteratorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\listecoursestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\listecoursestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\delegatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\delegatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +62,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "PersistenceToDisk.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\PersistenceToDisk.cs",
+              "RelativeDocumentMoniker": "MesClasses\\Persistence\\PersistenceToDisk.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\PersistenceToDisk.cs",
+              "RelativeToolTip": "MesClasses\\Persistence\\PersistenceToDisk.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:17:22.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListeCourses\u00E9.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\ListeCourses\u00E9.cs",
+              "RelativeDocumentMoniker": "MesClasses\\ListeCourses\u00E9.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\ListeCourses\u00E9.cs",
+              "RelativeToolTip": "MesClasses\\ListeCourses\u00E9.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:14:31.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPersistenceListe.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\IPersistenceListe.cs",
+              "RelativeDocumentMoniker": "MesClasses\\Persistence\\IPersistenceListe.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\IPersistenceListe.cs",
+              "RelativeToolTip": "MesClasses\\Persistence\\IPersistenceListe.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:06:07.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TPIEnumerableExtension.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\TPIEnumerableExtension.cs",
+              "RelativeDocumentMoniker": "MesTests\\TPIEnumerableExtension.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\TPIEnumerableExtension.cs",
+              "RelativeToolTip": "MesTests\\TPIEnumerableExtension.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:48:02.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MethodeExtensionTests.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\MethodeExtensionTests.cs",
+              "RelativeDocumentMoniker": "MesTests\\MethodeExtensionTests.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\MethodeExtensionTests.cs",
+              "RelativeToolTip": "MesTests\\MethodeExtensionTests.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:24:41.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IteratorGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\IteratorGenerator.cs",
+              "RelativeDocumentMoniker": "MesTests\\IteratorGenerator.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\IteratorGenerator.cs",
+              "RelativeToolTip": "MesTests\\IteratorGenerator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:12:56.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CollectionsTests.cs",
               "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\CollectionsTests.cs",
               "RelativeDocumentMoniker": "MesTests\\CollectionsTests.cs",
               "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\CollectionsTests.cs",
               "RelativeToolTip": "MesTests\\CollectionsTests.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAowJEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAowKQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T09:27:43.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "DelegateTests.cs",
               "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\DelegateTests.cs",
               "RelativeDocumentMoniker": "MesTests\\DelegateTests.cs",
@@ -64,28 +166,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ListeCoursesTests.cs",
               "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\ListeCoursesTests.cs",
               "RelativeDocumentMoniker": "MesTests\\ListeCoursesTests.cs",
               "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\ListeCoursesTests.cs",
               "RelativeToolTip": "MesTests\\ListeCoursesTests.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwBoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T14:02:44.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ListeCourses.cs",
               "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\ListeCourses.cs",
               "RelativeDocumentMoniker": "MesClasses\\ListeCourses.cs",
               "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\ListeCourses.cs",
               "RelativeToolTip": "MesClasses\\ListeCourses.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAhwCcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:17:44.371Z"
+              "WhenOpened": "2025-05-20T13:17:44.371Z",
+              "EditorCaption": ""
             }
           ]
         }
