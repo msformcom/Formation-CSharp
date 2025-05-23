@@ -7,13 +7,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Reflection.Emit;
 
 namespace MesTests;
 
 [TestClass]
 public class PersistenceTests
 {
-    private readonly IServiceProvider injecteur ;
+    private readonly IServiceProvider injecteur;
     public PersistenceTests()
     {
         #region Configuration injection de dépendance
@@ -26,7 +27,17 @@ public class PersistenceTests
 
         // Ajouter la journalisation vers les journaux évènement Windows
         // Après installation de Microsoft.Extensions.Logging.EventLog
-        services.AddLogging(l => l.AddEventLog());
+        services.AddLogging(l =>
+        {
+            l.AddEventLog();
+#if DEBUG
+            l.AddDebug();
+#else
+    l.AddEventLog();
+#endif
+
+        }
+        );
 
         #endregion
         #region Configuration
@@ -71,18 +82,36 @@ public class PersistenceTests
         // Recherche du Type 
         //var persistenceClassType = Type.GetType(persistenceClass);
         // Association IPersistenceListe => persistenceClassType
- //       services.AddSingleton(typeof(IPersistenceListe<Guid>), persistenceClassType));
+        //       services.AddSingleton(typeof(IPersistenceListe<Guid>), persistenceClassType));
 
         #region Config BDD
         services.AddDbContext<ListeDbContext>(options =>
         {
+
             // Cette fonction est utilisée pour créer les options
             // Ajouter le package du provider => Microsoft.EntityFrameworkCore.SqlServer
             // Sans config, le serveur installé avec Visual Studio est untilise
             options.UseSqlServer("name=MaConnection");
         });
 
+        // Cette fonction identifiée par le delgate ModelBuilderDelegate
+        // Sera utilisée par le contexte pour spécifier des options dans la BDD Créée
+        services.AddSingleton<ModelBuilderDelegate>(modelBuilder =>
+        {
+            modelBuilder.Entity<ItemDAO>(itemDAO =>
+            {
+                // Spécifier la clé primaire de la table associée à ItemDAO
+                itemDAO.HasKey(c => c.Id);
+                itemDAO.Property(c => c.Id).HasColumnName("PK_Item");
+                // spécifier la longueur max de la colonne associée à Label
+                itemDAO.Property(c => c.Label).HasMaxLength(50);
 
+                // Optimise la recherche des items par Label
+                itemDAO.HasIndex(c => c.Label);
+
+                itemDAO.HasOne(c => c.Liste).WithMany(c => c.Items).HasForeignKey(c => c.FK_Liste);
+            });
+        });
 
 
         services.AddSingleton<IPersistenceListe<Guid>, PersistenceToBDD>();
@@ -105,7 +134,9 @@ public class PersistenceTests
     [TestMethod]
     public void CreationBDDTest()
     {
+
         var context = injecteur.GetService<ListeDbContext>();
+        context.Database.EnsureDeleted();
         context.Database.EnsureCreated();
 
     }
@@ -120,7 +151,7 @@ public class PersistenceTests
     [TestMethod]
     public async Task AddListAsyncTest()
     {
-       
+
 
 
         // Que faire ?   
@@ -145,7 +176,7 @@ public class PersistenceTests
         // demande de la classe de sauvegarde
         var persistenceClass = injecteur.GetRequiredService<IPersistenceListe<Guid>>();
 
-        var id= await persistenceClass.AddListeAsync(liste);
+        var id = await persistenceClass.AddListeAsync(liste);
 
         var listeRestauree = await persistenceClass.GetListeCoursesAsync(id);
 

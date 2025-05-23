@@ -17,6 +17,8 @@ namespace MesClasses.Persistence.BDD
         public string Description { get; set; }
         public DateTime? RealisationDate { get; set; }
 
+        public Guid FK_Liste { get; set; }
+
         // Propriété de navigation => va ajouter un IdListe dans TBL_Items
         public ListeDAO Liste { get; set; }
 

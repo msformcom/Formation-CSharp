@@ -5,5 +5,11 @@
   "PersistenceToDiskOptions": {
     "PathToLists": "c:\\data",
     "FileNamePattern": "Liste-{0}.json"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Error"
+      
+    }
   }
 }
