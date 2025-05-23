@@ -26,7 +26,7 @@ namespace MesClasses
         #region Propriété Nom
 
         [DataMember(Name ="Name")]
-        private string _Nom;
+        internal string _Nom;
 
         public string Nom
         {
@@ -44,7 +44,7 @@ namespace MesClasses
 
 
         [DataMember(Name ="Items")]
-        private List<Item> ListeItems ;
+        internal List<Item> ListeItems ;
 
         // Version visible de la liste => non modifiable
         public IEnumerable<Item> Items

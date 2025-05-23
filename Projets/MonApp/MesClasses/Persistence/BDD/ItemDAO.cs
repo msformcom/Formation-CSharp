@@ -20,7 +20,7 @@ namespace MesClasses.Persistence.BDD
         public Guid FK_Liste { get; set; }
 
         // Propriété de navigation => va ajouter un IdListe dans TBL_Items
-        public ListeDAO Liste { get; set; }
+        public virtual ListeDAO Liste { get; set; }
 
     }
 }

@@ -33,6 +33,7 @@ namespace MesClasses.Persistence.BDD
             // Dans cette méthode, je peux préciser des choses dans la BDD
             // Fluent Api
 
+            // Cette fonction est fournie par DI
             this.modelBuilderDelegate(modelBuilder);
 
         }

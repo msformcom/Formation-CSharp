@@ -1,4 +1,5 @@
 ﻿using Liste;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Logging;
 using System;
@@ -72,7 +73,81 @@ namespace MesClasses.Persistence.BDD
 
         public Task<ListeCourses> GetListeCoursesAsync(Guid id)
         {
-            var dao=context.Listes.Find(id)
+            // First => erreur si pas d'élément trouvé
+            // Find => renvoit null si pas d'élément trouvé
+
+            //  dao.Items => null car non chargement  par défaut des propriétés de navigation
+            // SELECT TOP 1 * FROM TBL_Listes WHERE Id=89798
+            // Si je veux charger les items je dois le spécifier dans mon code
+            var dao = context.Listes.Find(id);
+
+            // dao.items => Rempli avec les items => EagerLoading => Propriété navigation chargée en avance
+            // SELECT TOP 1 * FROM TBL_Listes
+            // INNER JOIN TBL_Items ON ...
+            // WHERE Id=89798
+            var daoAvecItems = context.Listes.Include(c => c.Items).First(c => c.Id==id);
+
+            // Juste les données de l'item 
+            ListeDAO? daoSansItems = context.Listes.Find(id);
+            
+            // daoSansItems.Items => null
+            if (daoSansItems != null)
+            {
+                // Je vais charger la liste de l'item daoSansItems => ExplicitLoading
+                context.Entry(daoSansItems!).Collection(c => c.Items).Load();
+                //daoAvecItems.Items => Rempli
+            }
+
+            // LasyLoading implicit => 
+            // Package Proxies => Ajoute la capacité de charger automatiquement les proproétés de nav
+      //      daoSansItems = context.Listes.Find(id);
+            // Les items ne sont pas chargés
+          //  daoAvecItems.Items.ToArray(); // => Va envoyer la requete SELECT pour obtenir les Items
+            // 
+
+
+
+
+
+
+            var req2 = context.Items.Include(c=>c.Liste).First(c => c.Id == id);
+            // req2.Liste => ListeDAO
+            // req2.Liste.Items => null
+
+
+            var req3 = context.Items
+                    .Include(c => c.Liste)
+                    .ThenInclude(c=>c.Items).First(c => c.Id == id);
+            // req2.Liste => ListeDAO
+            // req2.Liste.Items => ItemDAOs
+
+
+            //var dao2 = context.Listes.First(c => c.Id == id);
+            if (dao == null)
+            {
+                throw new Exception("Id non existatnt");
+            }
+
+            var poco = new ListeCourses();
+            
+            poco.Nom = dao.Name;
+
+            // Obtenir la référence vers la List<Item> privée de poco dans le champs ListeItems
+            var typeListeCourses = poco.GetType();
+            typeListeCourses = typeof(ListeCourses);
+            typeListeCourses = Type.GetType("MesClasses.ListeCourses");
+            var champs=typeListeCourses.GetField("ListeItems", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            var listeItemsDePoco = (List<Item>)champs.GetValue(poco);
+            //listeItemsDePoco.AddRange(dao.Items.Select(c=>new Item(c.Label,c.Price)
+            //{
+
+            //}))
+
+            // poco.Items.Add => IEnumerable
+            // poco.ListeItems.Add => Impossible car privé
+            // Avec Reflection => Je vais accéder à un champs privé
+            return Task.FromResult(poco);
+
         }
 
         public Task RemoveListAsync(Guid id)

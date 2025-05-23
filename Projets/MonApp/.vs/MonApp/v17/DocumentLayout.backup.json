@@ -7,28 +7,16 @@
       "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\persistencetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\persistence\\bdd\\persistencetobdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\persistence\\bdd\\persistencetobdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\maconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\maconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\persistence\\bdd\\listedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\persistence\\bdd\\listedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mestests\\mestests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{38EAC5FD-CA5F-4961-BB89-CB37AF1ED21A}|MesTests\\MesTests.csproj|solutionrelative:mestests\\mestests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\listecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\listecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\persistence\\disk\\persistencetodiskoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\persistence\\disk\\persistencetodiskoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\persistence\\bdd\\itemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\persistence\\bdd\\itemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|c:\\users\\conta\\onedrive\\bureau\\formation c#\\public\\projets\\monapp\\mesclasses\\persistence\\api\\persistencetoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1568682-C610-4CA4-8769-D5367D33B3D8}|MesClasses\\MesClasses.csproj|solutionrelative:mesclasses\\persistence\\api\\persistencetoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MaConfig.json",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\MaConfig.json",
+              "RelativeDocumentMoniker": "MesTests\\MaConfig.json",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\MaConfig.json",
+              "RelativeToolTip": "MesTests\\MaConfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T14:48:12.03Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -51,79 +52,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ListeDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\BDD\\ListeDbContext.cs",
-              "RelativeDocumentMoniker": "MesClasses\\Persistence\\BDD\\ListeDbContext.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\BDD\\ListeDbContext.cs",
-              "RelativeToolTip": "MesClasses\\Persistence\\BDD\\ListeDbContext.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T13:40:33.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PersistenceToBDD.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\BDD\\PersistenceToBDD.cs",
-              "RelativeDocumentMoniker": "MesClasses\\Persistence\\BDD\\PersistenceToBDD.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\BDD\\PersistenceToBDD.cs",
-              "RelativeToolTip": "MesClasses\\Persistence\\BDD\\PersistenceToBDD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:20:56.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ItemDAO.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\BDD\\ItemDAO.cs",
-              "RelativeDocumentMoniker": "MesClasses\\Persistence\\BDD\\ItemDAO.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\BDD\\ItemDAO.cs",
-              "RelativeToolTip": "MesClasses\\Persistence\\BDD\\ItemDAO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:59:57.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersistenceToDiskOptions.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\Disk\\PersistenceToDiskOptions.cs",
-              "RelativeDocumentMoniker": "MesClasses\\Persistence\\Disk\\PersistenceToDiskOptions.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\Disk\\PersistenceToDiskOptions.cs",
-              "RelativeToolTip": "MesClasses\\Persistence\\Disk\\PersistenceToDiskOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T09:45:34.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Item.cs",
-              "RelativeDocumentMoniker": "MesClasses\\Item.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Item.cs",
-              "RelativeToolTip": "MesClasses\\Item.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAADwv44AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T09:08:10.808Z",
+              "Title": "MesTests",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\MesTests.csproj",
+              "RelativeDocumentMoniker": "MesTests\\MesTests.csproj",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\MesTests.csproj",
+              "RelativeToolTip": "MesTests\\MesTests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T14:45:51.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ListeCourses.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\ListeCourses.cs",
-              "RelativeDocumentMoniker": "MesClasses\\ListeCourses.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\ListeCourses.cs",
-              "RelativeToolTip": "MesClasses\\ListeCourses.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGUAAAAIAAAAAAAAAA==",
+              "Title": "PersistenceToApi.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\Api\\PersistenceToApi.cs",
+              "RelativeDocumentMoniker": "MesClasses\\Persistence\\Api\\PersistenceToApi.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesClasses\\Persistence\\Api\\PersistenceToApi.cs",
+              "RelativeToolTip": "MesClasses\\Persistence\\Api\\PersistenceToApi.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAtwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T07:42:00.224Z",
+              "WhenOpened": "2025-05-23T14:44:03.769Z",
               "EditorCaption": ""
             },
             {
@@ -134,7 +82,7 @@
               "RelativeDocumentMoniker": "MesTests\\PersistenceTests.cs",
               "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation C#\\Public\\Projets\\MonApp\\MesTests\\PersistenceTests.cs",
               "RelativeToolTip": "MesTests\\PersistenceTests.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAiwKwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAuwMcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T07:32:37.192Z",
               "EditorCaption": ""

@@ -35,7 +35,7 @@ namespace Liste
         #region Propriété Description
 
         [DataMember]
-        private string? _Description;
+        internal string? _Description;
 
         public string? Description
         {
@@ -55,7 +55,7 @@ namespace Liste
         #region Propriété Prix
 
         [DataMember]
-        private Decimal? _Prix=null;
+        internal Decimal? _Prix=null;
 
         public Decimal? Prix
         {
@@ -78,7 +78,7 @@ namespace Liste
         #region Propriété Points
 
         [DataMember]
-        private int? _Points=null;
+        internal int? _Points=null;
 
         public int? Points
         {
@@ -104,7 +104,7 @@ namespace Liste
 
         // Champs => stocker l'information
         [DataMember]
-        private string _Libelle; // Pas de valeur par défaut
+        internal string _Libelle; // Pas de valeur par défaut
 
         // Propriété
         // item.Libelle="Toto" => execution du set avec value = "Toto"

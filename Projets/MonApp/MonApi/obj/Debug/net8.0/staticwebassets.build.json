@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "+q5eYnElscevNDm+WXnrAVSMhh9fT+Zza2A+8acFgCM=",
+  "Source": "MonApi",
+  "BasePath": "_content/MonApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesTests", "MesTests\MesTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesClasses", "MesClasses\MesClasses.csproj", "{B1568682-C610-4CA4-8769-D5367D33B3D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonApi", "MonApi\MonApi.csproj", "{7C597C1E-D03E-4EEC-8F8E-2DF19DB546BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B1568682-C610-4CA4-8769-D5367D33B3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1568682-C610-4CA4-8769-D5367D33B3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1568682-C610-4CA4-8769-D5367D33B3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C597C1E-D03E-4EEC-8F8E-2DF19DB546BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C597C1E-D03E-4EEC-8F8E-2DF19DB546BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C597C1E-D03E-4EEC-8F8E-2DF19DB546BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C597C1E-D03E-4EEC-8F8E-2DF19DB546BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,7 @@
 using Liste;
 using MesClasses;
 using MesClasses.Persistence;
+using MesClasses.Persistence.Api;
 using MesClasses.Persistence.BDD;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -20,16 +21,25 @@ public class PersistenceTests
         #region Configuration injection de dépendance
         // Objet contenant les dépendances qui vont être proposées par l'Injecteur
 
+
+
         ServiceCollection services = new ServiceCollection();
+
+        // Choix de la classe testee
+        services.AddSingleton<IPersistenceListe<Guid>, PersistenceToApi>();
+
+
+
 
         #region Journalisation
 
 
         // Ajouter la journalisation vers les journaux évènement Windows
+
         // Après installation de Microsoft.Extensions.Logging.EventLog
         services.AddLogging(l =>
         {
-            l.AddEventLog();
+
 #if DEBUG
             l.AddDebug();
 #else
@@ -98,23 +108,39 @@ public class PersistenceTests
         // Sera utilisée par le contexte pour spécifier des options dans la BDD Créée
         services.AddSingleton<ModelBuilderDelegate>(modelBuilder =>
         {
-            modelBuilder.Entity<ItemDAO>(itemDAO =>
+            // Personnalisation relatives à ListeDAO
+            modelBuilder.Entity<ListeDAO>(listDAO =>
             {
-                // Spécifier la clé primaire de la table associée à ItemDAO
-                itemDAO.HasKey(c => c.Id);
-                itemDAO.Property(c => c.Id).HasColumnName("PK_Item");
-                // spécifier la longueur max de la colonne associée à Label
-                itemDAO.Property(c => c.Label).HasMaxLength(50);
-
-                // Optimise la recherche des items par Label
-                itemDAO.HasIndex(c => c.Label);
-
-                itemDAO.HasOne(c => c.Liste).WithMany(c => c.Items).HasForeignKey(c => c.FK_Liste);
+                listDAO.ToTable("TBL_Listes");
+                //...
             });
+            modelBuilder.Entity<ItemDAO>(itemDAO =>
+        {
+            itemDAO.ToTable("TBL_Items");
+
+            // Spécifier la clé primaire de la table associée à ItemDAO
+            itemDAO.HasKey(c => c.Id);
+            itemDAO.Property(c => c.Id).HasColumnName("PK_Item");
+            // spécifier la longueur max de la colonne associée à Label
+            itemDAO.Property(c => c.Label).HasMaxLength(50);
+
+            // Optimise la recherche des items par Label
+            itemDAO.HasIndex(c => c.Label);
+
+            itemDAO.HasOne(c => c.Liste).WithMany(c => c.Items).HasForeignKey(c => c.FK_Liste);
+        });
         });
 
 
-        services.AddSingleton<IPersistenceListe<Guid>, PersistenceToBDD>();
+
+        #endregion
+
+        #region ConfigHttp
+        services.AddTransient<HttpClient>(s => new HttpClient()
+        {
+            BaseAddress = new Uri(s.GetRequiredService<IConfiguration>().GetSection("ApiUrl").Value)
+        });
+
         #endregion
 
         // Ajoute à mon injection la classe ListeCourses
@@ -169,6 +195,7 @@ public class PersistenceTests
 
         // Demande de liste de course à l'injecteur
         var liste = injecteur.GetRequiredService<ListeCourses>();
+        
         liste.Nom = "Mes courses";
         var item1 = new Item("Pates", 10M) { Description = "De jolies pâtes fraiches" };
         await liste.AddItemAsync(item1);
@@ -177,6 +204,14 @@ public class PersistenceTests
         var persistenceClass = injecteur.GetRequiredService<IPersistenceListe<Guid>>();
 
         var id = await persistenceClass.AddListeAsync(liste);
+
+        using (var s = injecteur.CreateScope())
+        {
+            // scope d'injection =>domaine d'injection séparé
+            // J'obtiens des singletons uniques pour ce scope
+            persistenceClass = injecteur.GetRequiredService<IPersistenceListe<Guid>>();
+        }
+      
 
         var listeRestauree = await persistenceClass.GetListeCoursesAsync(id);
 
